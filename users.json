@@ -9,8 +9,18 @@
             "created_at": "2026-01-30 19:27:32",
             "last_login": null,
             "is_active": 1
+        },
+        {
+            "email": "sneha@gmail.com",
+            "password_hash": "1f003a5db464597e6993b76aa723bea86edddc6ec8d21e94a416379b11a37625",
+            "role": "user",
+            "security_question": "What is your favorite color?",
+            "security_answer_hash": "a67a41c8bc79d5da917b5051f1f0d3f5aeb4b63ba246b3546a961ef7a3c7d931",
+            "created_at": "2026-01-30 19:30:18",
+            "last_login": "2026-01-30 19:30:22",
+            "is_active": 1
         }
     ],
-    "last_updated": "2026-01-30 19:27:32",
-    "total_users": 1
+    "last_updated": "2026-01-30 19:30:22",
+    "total_users": 2
 }
