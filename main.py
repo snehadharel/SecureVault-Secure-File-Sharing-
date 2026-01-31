@@ -1,5 +1,5 @@
 ### Sneha Dharel ###
-#Developed by Sneha Dharel – Secure File Sharing Application
+### Developed by Sneha Dharel – Secure File Sharing Application ###
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox, scrolledtext
 import os
