@@ -44,5 +44,9 @@ Database Management: Backup, restore, optimize, and integrity checks
 🚀 Installation
 Prerequisites
 Python 3.8 or higher
-
 Required Python packages
+
+👨‍💻 Author
+Sneha Dharel
+GitHub: @snehadharel
+
