@@ -1,5 +1,5 @@
 ##### SecureVault - Secure File Sharing Tool #####
-##### Developed by Sneha Dharel #####
+##### Developed by SNEHA DHAREL #####
 
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox, scrolledtext
