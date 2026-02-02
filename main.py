@@ -1,4 +1,4 @@
-##### SecureVault-Secure File Sharing System #####
+###### SecureVault-Secure File Sharing System ######
 ###### Developed by Sneha Dharel ######
 
 import tkinter as tk
