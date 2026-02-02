@@ -1,5 +1,5 @@
-### Sneha Dharel ###
-### Developed by Sneha Dharel – Secure File Sharing Application ###
+### SecureVault - Secure File Sharing Tool###
+### Developed by Sneha Dharel – Secure File Sharing Tool ###
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox, scrolledtext
 import os
