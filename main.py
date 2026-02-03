@@ -34,7 +34,7 @@ from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt
 
-# Custom formatter to handle additional fields in logging
+# Custom formatter to handle additional fields in logging page
 class CustomFormatter(logging.Formatter):
     def format(self, record):
         if hasattr(record, 'username'):
