@@ -150,7 +150,7 @@ class MetadataExtractor:
         
         try:
             with Image.open(file_path) as img:
-                # Basic image info
+                # Basic image information
                 metadata["image_info"] = {
                     "format": img.format,
                     "mode": img.mode,
