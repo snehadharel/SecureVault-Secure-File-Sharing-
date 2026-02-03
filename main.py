@@ -161,7 +161,7 @@ class MetadataExtractor:
                     "n_frames": getattr(img, "n_frames", 1)
                 }
                 
-                # EXIF data
+                # EXIF data info
                 exif_data = img._getexif()
                 if exif_data:
                     for tag_id, value in exif_data.items():
