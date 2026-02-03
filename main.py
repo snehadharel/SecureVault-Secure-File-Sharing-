@@ -77,7 +77,7 @@ class MetadataExtractor:
             "extensions": []
         }
         
-        # Extract specific metadata based on file type
+        # Extract specific metadata based on file types
         if file_type == "image":
             metadata.update(self._extract_image_metadata(file_path))
             metadata["extensions"].append("image_metadata")
