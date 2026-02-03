@@ -94,7 +94,7 @@ class MetadataExtractor:
             metadata.update(self._extract_csv_metadata(file_path))
             metadata["extensions"].append("csv_metadata")
         
-        # Extract cryptographic metadata if it's an encrypted file
+        # Extract cryptographic metadata if it's for an encrypted file
         if file_path.endswith('.encrypted'):
             metadata.update(self._extract_crypto_metadata(file_path))
             metadata["extensions"].append("crypto_metadata")
