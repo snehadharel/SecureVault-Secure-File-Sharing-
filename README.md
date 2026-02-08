@@ -42,6 +42,49 @@ SecureVault follows a layered architecture:
 - **Data Storage Layer** – Stores encrypted files, keys, and user data (SQLite + JSON)
 
 ---
+🧪 Testing
+
+The system has been tested using:
+
+Manual unit testing of cryptographic operations
+
+Multi-user file sharing simulations
+
+Unauthorized access and attack simulations
+
+Performance testing for different file sizes
+
+Testing ensures that:
+
+Only authorized users can decrypt files
+
+Incorrect keys cannot decrypt content
+
+Session and access controls function correctly
+---
+📄 Documentation
+
+Detailed documentation explaining:
+
+Cryptographic design decisions
+
+Security features
+
+System architecture
+
+Real-world use cases
+
+is provided in the coursework report.
+---
+
+👩‍💻 Developer
+
+Name: Sneha Dharel
+
+Student ID: 230231
+
+Module: Practical Cryptography (ST6051CEM)
+---
 
 🚀 Installation & Setup
 
