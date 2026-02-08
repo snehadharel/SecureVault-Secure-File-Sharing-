@@ -1,52 +1,56 @@
-🔐 SecureVault - Secure File Sharing Application
+SecureVault – Secure File Sharing System using Hybrid Cryptography
 
-A comprehensive, secure file sharing application with dual database support (SQLite + JSON), advanced encryption, metadata extraction, and user management.
+SecureVault is an open-source secure file sharing system designed to ensure confidentiality, integrity, and authentication of digital files using modern cryptographic techniques. The system leverages hybrid cryptography, combining symmetric encryption (AES), asymmetric encryption (RSA), and cryptographic hashing (SHA-256) to provide secure and efficient file sharing between authenticated users.
 
-🌟 Features
-🔐 Security Features
-Hybrid Encryption System: AES-256 for file encryption + RSA-2048 for key exchange
+This project was developed as part of the **Practical Cryptography (ST6051CEM)** coursework at **Softwarica College of IT & E-Commerce**, in collaboration with Coventry University.
 
-Password-Protected RSA Keys: Private keys encrypted with user passwords
+---
 
-Secure Key Management: Automatic key generation and secure storage
+🔐 Key Features
 
-Account Lockout: Protection against brute force attacks (5 attempts limit)
+- Hybrid encryption using **AES-256** and **RSA-2048**
+- Secure file upload, sharing, and download
+- Public Key Infrastructure (PKI)-based authentication
+- Digital signatures for integrity verification
+- Secure private key storage
+- Role-based access control (Admin/User)
+- Metadata extraction from common file formats
+- Protection against common attacks (MITM, replay, brute force)
+- Dockerized deployment support
+- Open-source and extensible architecture
 
-📁 File Operations
-File Encryption/Decryption: AES-256 symmetric encryption
+---
 
-Secure File Sharing: Share files with other users using RSA-encrypted AES keys
+🧠 Cryptographic Techniques Used
 
-Metadata Extraction: Extract detailed metadata from 50+ file formats
+| Technique | Algorithm | Purpose |
+|---------|----------|---------|
+| Symmetric Encryption | AES-256 | Fast encryption of file contents |
+| Asymmetric Encryption | RSA-2048 | Secure key exchange and authentication |
+| Hashing | SHA-256 | Integrity verification and password hashing |
+| Digital Signatures | RSA + SHA-256 | Data integrity and non-repudiation |
 
-Batch Operations: Support for multiple file types and sizes
+---
 
-👥 User Management
-Dual Database Support: SQLite (primary) + JSON (backup/sync)
+🏗️ System Architecture (Overview)
 
-Role-Based Access: Admin and User roles with different permissions
+SecureVault follows a layered architecture:
 
-Session Management: Track active sessions and login history
+- **User Interface Layer** – Handles user interaction (Tkinter GUI)
+- **Application Logic Layer** – Manages authentication, authorization, and workflows
+- **Cryptographic Engine** – Performs encryption, decryption, and hashing
+- **Data Storage Layer** – Stores encrypted files, keys, and user data (SQLite + JSON)
 
-Password Recovery: Security question-based password reset
+---
 
-🛠️ Advanced Features
-Metadata Extractor: Supports images (EXIF), PDFs, documents, archives, and more
+🚀 Installation & Setup
 
-Public Key Directory: View and manage public keys in the system
+🔹 Prerequisites
+- Python 3.8 or higher
+- Git
+- Docker (optional)
 
-Activity Logging: Comprehensive logging of all user actions
-
-Admin Dashboard: System statistics, graphs, and user management
-
-Database Management: Backup, restore, optimize, and integrity checks
-
-🚀 Installation
-Prerequisites
-Python 3.8 or higher
-Required Python packages
-
-👨‍💻 Author
-Sneha Dharel
-GitHub: @snehadharel
-
+🔹 Clone Repository
+```bash
+git clone https://github.com/your-username/SecureVault.git
+cd SecureVault
