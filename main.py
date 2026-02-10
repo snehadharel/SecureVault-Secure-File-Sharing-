@@ -6026,7 +6026,7 @@ File Size: {os.path.getsize('users.json')/1024:.1f} KB"""
         try:
             aes_key = aes_key_str.encode()
             
-            # Encrypt with user's own public key (for testing/demo)
+            # Encrypt with user's own public key 
             encrypted_key_b64, message = self.encrypt_aes_key_with_rsa(aes_key, self.user_public_key)
             if not encrypted_key_b64:
                 messagebox.showerror("Error", f"❌ Key encryption failed: {message}")
