@@ -74,7 +74,7 @@ Git
 Docker (optional)
 
 🔹 Clone Repository
-git clone https://github.com/your-username/SecureVault.git
+git clone https://github.com/snehadharel/SecureVault-Secure-File-Sharing-
 cd SecureVault
 
 🔹 Install Dependencies
