@@ -1,3 +1,24 @@
 2026-02-04 21:59:31,633 - sneha@gmail.com - LOGOUT - 
 2026-02-04 22:00:45,530 - amical@gmail.com - SHARE - C:/Users/Dell/Desktop/education.txt
 2026-02-04 22:00:46,917 - amical@gmail.com - LOGOUT - 
+2026-02-10 21:37:01,073 - sneha1@gmail.com - ENCRYPT - C:/Users/Dell/Desktop/education.txt
+2026-02-10 21:37:17,841 - sneha1@gmail.com - DECRYPT - C:/Users/Dell/Desktop/education.txt.encrypted
+2026-02-10 21:38:13,201 - sneha1@gmail.com - SHARE - C:/Users/Dell/Desktop/education.txt.encrypted
+2026-02-10 21:38:16,857 - sneha1@gmail.com - LOGOUT - 
+2026-02-10 21:40:08,753 - sneha@gmail.com - DOWNLOAD_DECRYPT - education.txt.encrypted
+2026-02-10 21:40:50,829 - sneha@gmail.com - ENCRYPT - C:/Users/Dell/Desktop/education1
+2026-02-10 21:42:46,389 - sneha@gmail.com - LOGOUT - 
+2026-02-10 21:43:03,745 - admin@gmail.com - ADMIN_LOGIN - 
+2026-02-10 21:45:50,195 - admin@gmail.com - LOGOUT - 
+2026-02-10 21:53:18,181 - sneha2@gmail.com - ENCRYPT - C:/Users/Dell/Desktop/education.txt
+2026-02-10 21:53:33,778 - sneha2@gmail.com - DECRYPT - C:/Users/Dell/Desktop/education.txt.encrypted
+2026-02-10 21:54:59,665 - sneha2@gmail.com - SHARE - C:/Users/Dell/Desktop/education.txt.encrypted
+2026-02-10 21:55:01,499 - sneha2@gmail.com - LOGOUT - 
+2026-02-10 21:56:32,050 - sneha@gmail.com - DOWNLOAD_DECRYPT - education.txt.encrypted
+2026-02-10 21:57:15,811 - sneha@gmail.com - ENCRYPT - C:/Users/Dell/Desktop/educationa
+2026-02-10 21:57:18,069 - sneha@gmail.com - ENCRYPT - C:/Users/Dell/Desktop/educationa
+2026-02-10 21:57:38,228 - sneha@gmail.com - DECRYPT - C:/Users/Dell/Desktop/educationa.encrypted
+2026-02-10 21:59:33,316 - sneha@gmail.com - LOGOUT - 
+2026-02-10 21:59:58,914 - admin@gmail.com - ADMIN_LOGIN - 
+2026-02-10 22:02:11,233 - admin@gmail.com - DELETE_USER_sneha1@gmail.com - Role: user
+2026-02-10 22:03:38,014 - admin@gmail.com - LOGOUT - 
