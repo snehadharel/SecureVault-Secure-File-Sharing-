@@ -22,3 +22,30 @@
 2026-02-10 21:59:58,914 - admin@gmail.com - ADMIN_LOGIN - 
 2026-02-10 22:02:11,233 - admin@gmail.com - DELETE_USER_sneha1@gmail.com - Role: user
 2026-02-10 22:03:38,014 - admin@gmail.com - LOGOUT - 
+2026-02-11 13:17:21,923 - snehaa@gmail.com - LOGOUT - 
+2026-02-11 13:19:41,286 - snehaa@gmail.com - ENCRYPT - C:/Users/Dell/Desktop/hello.txt
+2026-02-11 13:19:49,255 - snehaa@gmail.com - DECRYPT - C:/Users/Dell/Desktop/hello.txt.encrypted
+2026-02-11 13:21:02,319 - snehaa@gmail.com - SHARE - C:/Users/Dell/Desktop/hello.txt.encrypted
+2026-02-11 13:21:03,628 - snehaa@gmail.com - LOGOUT - 
+2026-02-11 13:22:38,871 - sneha@gmail.com - DOWNLOAD_DECRYPT - hello.txt.encrypted
+2026-02-11 13:22:57,572 - sneha@gmail.com - ENCRYPT - C:/Users/Dell/Desktop/helloo
+2026-02-11 13:23:03,098 - sneha@gmail.com - DECRYPT - C:/Users/Dell/Desktop/helloo.encrypted
+2026-02-11 13:23:28,385 - sneha@gmail.com - DECRYPT - C:/Users/Dell/Desktop/helloo.encrypted
+2026-02-11 13:23:45,313 - sneha@gmail.com - DECRYPT - C:/Users/Dell/Desktop/helloo
+2026-02-11 13:25:33,908 - sneha@gmail.com - LOGOUT - 
+2026-02-11 13:25:51,770 - admin@gmail.com - ADMIN_LOGIN - 
+2026-02-11 13:27:42,336 - admin@gmail.com - DELETE_USER_sneha2@gmail.com - Role: user
+2026-02-11 13:30:05,673 - admin@gmail.com - LOGOUT - 
+2026-02-16 13:43:28,860 - admin@gmail.com - ADMIN_LOGIN - 
+2026-02-16 14:02:02,423 - admin@gmail.com - LOGOUT - 
+2026-02-16 14:04:44,228 - sneha@gmail.com - LOGOUT - 
+2026-02-16 15:41:36,109 - sneha@gmail.com - LOGOUT - 
+2026-02-16 15:43:38,421 - sneha@gmail.com - SHARE - C:/Users/Dell/Desktop/hello.txt
+2026-02-16 15:45:17,518 - sneha@gmail.com - LOGOUT - 
+2026-02-16 15:47:55,137 - amical@gmail.com - DOWNLOAD_DECRYPT - hello.txt
+2026-02-16 15:49:32,339 - amical@gmail.com - LOGOUT - 
+2026-02-16 16:07:20,324 - sneha@gmail.com - LOGOUT - 
+2026-02-16 16:07:32,565 - admin@gmail.com - ADMIN_LOGIN - 
+2026-02-16 17:05:52,048 - admin@gmail.com - LOGOUT - 
+2026-02-16 17:32:20,377 - amical@gmail.com - LOGOUT - 
+2026-02-16 17:32:50,212 - amical@gmail.com - DOWNLOAD_DECRYPT - hello.txt
