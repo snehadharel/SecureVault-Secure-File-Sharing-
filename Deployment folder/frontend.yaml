@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: securevault-frontend   # 🔥 THIS MUST NOT BE EMPTY
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: securevault-frontend
+  template:
+    metadata:
+      labels:
+        app: securevault-frontend
+    spec:
+      containers:
+        - name: frontend
+          image: frontend:latest   # matches your docker image
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 80
