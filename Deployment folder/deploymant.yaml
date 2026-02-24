@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: securevault-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: securevault
+  template:
+    metadata:
+      labels:
+        app: securevault
+    spec:
+      containers:
+      - name: securevault
+        image: securevault-app:latest
+        imagePullPolicy: Never   # use local Docker image in Minikube
+        ports:
+        - containerPort: 5000
+        volumeMounts:
+        - name: shared-files
+          mountPath: /app/shared_files
+        - name: db-storage
+          mountPath: /app/db  # mount a directory, not a single file
+      volumes:
+      - name: shared-files
+        emptyDir: {}
+      - name: db-storage
+        emptyDir: {}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: securevault-service
+spec:
+  type: NodePort
+  selector:
+    app: securevault
+  ports:
+    - protocol: TCP
+      port: 5000
+      targetPort: 5000
+      nodePort: 30050   # fixed port for Minikube
